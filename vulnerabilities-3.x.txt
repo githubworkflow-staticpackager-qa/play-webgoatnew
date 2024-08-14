@@ -33,7 +33,7 @@ app/controllers/HomeController.scala(92) :  ->Result.as(this)
     app/controllers/HomeController.scala(92) : <->Html.apply(0->return)
     app/controllers/HomeController.scala(91) :  ->controllers.HomeControllerattackerRouteControlledQuery$$anonfun$1.apply(this)
         app/controllers/HomeController.scala(91) : <=> (this)
-    app/controllers/HomeController.scala(92) : <->controllers.HomeControllerattackerRouteControlledQuery$$anonfun$1.innerinit^(0->this)
+    app/controllers/HomeController.scala(91) : <->controllers.HomeControllerattackerRouteControlledQuery$$anonfun$1.innerinit^(0->this)
     app/controllers/HomeController.scala(91) :  ->HomeController.attackerRouteControlledQuery(0)
 
 [76157C51B8F7E2674323F2BBE0459F81 : critical : Cross-Site Scripting : Reflected : dataflow ]
@@ -42,7 +42,7 @@ app/controllers/HomeController.scala(99) :  ->Result.as(this)
     app/controllers/HomeController.scala(99) : <->Html.apply(0->return)
     app/controllers/HomeController.scala(98) :  ->controllers.HomeControllerattackerRouteControlledPath$$anonfun$1.apply(this)
         app/controllers/HomeController.scala(98) : <=> (this)
-    app/controllers/HomeController.scala(99) : <->controllers.HomeControllerattackerRouteControlledPath$$anonfun$1.innerinit^(0->this)
+    app/controllers/HomeController.scala(98) : <->controllers.HomeControllerattackerRouteControlledPath$$anonfun$1.innerinit^(0->this)
     app/controllers/HomeController.scala(98) :  ->HomeController.attackerRouteControlledPath(0)
 
 [3795138EC238E0F49E5A94291F0D4EB8 : critical : Cross-Site Scripting : Reflected : dataflow ]
@@ -130,8 +130,8 @@ app/controllers/HomeController.scala(231) :  ->ProcessBuilder.!!(this)
     app/controllers/HomeController.scala(229) : <- RequestHeader.getQueryString(return)
 
 [19934AF014F44D85C1841457D8ED6581 : critical : Cross-Site Scripting : Reflected : dataflow ]
-target/scala-3.4.2/twirl/main/views/html/xss.template.scala(28) :  ->BaseScalaTemplate._display_(0)
-    target/scala-3.4.2/twirl/main/views/html/xss.template.scala(28) : <->Html.apply(0->return)
+target/scala-3.5.0/twirl/main/views/html/xss.template.scala(28) :  ->BaseScalaTemplate._display_(0)
+    target/scala-3.5.0/twirl/main/views/html/xss.template.scala(28) : <->Html.apply(0->return)
     app/controllers/HomeController.scala(202) :  ->xss.apply(0)
     app/controllers/HomeController.scala(201) :  ->controllers.HomeControllertwirlXSS$$anonfun$1$$anonfun$1.apply(0)
     app/controllers/HomeController.scala(201) : <- RequestHeader.getQueryString(return)
